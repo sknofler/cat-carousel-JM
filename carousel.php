@@ -1,3 +1,4 @@
+<?php  include 'src/functions.php';?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -27,7 +28,10 @@
         <div class="container mt-5">
 
         
-
+        <?php 
+        $cat = getCat();
+        echo $cat;
+        ?>
 
 
 
