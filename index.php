@@ -1,3 +1,5 @@
+<?php  include 'src/functions.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,14 +27,22 @@
         </nav>
         <!-- Page content-->
         <div class="container mt-5">
-
         
+
         <?php 
-       
-        
-        
-        ?>
+        //$thing = getCatBreeds();
+        echo "<h1> Cat Carousel </h1>";
+        echo "Select a cat breed:";
+        $info = getCatBreeds();
+        echo $info;
 
+
+
+
+
+
+
+        ?>
 
 
         </div>
